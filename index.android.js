@@ -3,10 +3,13 @@
  * https://github.com/facebook/react-native
  */
 
-import React, {
+ // import , {  } from 'react';
+
+
+import React,{
+  Component,
 	Alert,
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View,
