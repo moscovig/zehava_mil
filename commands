@@ -1,0 +1,10 @@
+
+export ANDROID_HOME=/home/gilad/Android/Sdk/
+react-native  start
+$ANDROID_HOME/platform-tools/adb reverse tcp:8081 tcp:8081
+react-native run-android
+
+
+apk
+https://facebook.github.io/react-native/docs/signed-apk-android.html
+cd android && ./gradlew assembleRelease

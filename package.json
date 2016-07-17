@@ -1,0 +1,14 @@
+{
+  "name": "zehava",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native": "^0.29.1"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^1.9.0"
+  }
+}
